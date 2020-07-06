@@ -19,7 +19,7 @@ npm start
 
 * Website: https://victorchencs.com/
 * Github: [@vchen8761](https://github.com/vchen8761)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/victorchencs](https://linkedin.com/in/victorchencs)
+* LinkedIn: [@victorchencs](https://linkedin.com/in/victorchencs)
 
 ## Show your support
 
