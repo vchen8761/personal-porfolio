@@ -17,7 +17,7 @@ function App() {
         </div>
         <div className="App-progress"> 
           <FontAwesome name="wrench"/>
-          This website is currently in development!
+          This website is currently in development and will be updated soon!
           <FontAwesome name="wrench"/>
         </div>
       </header>
