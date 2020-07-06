@@ -1,23 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
+import NavBar from './NavBar';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <NavBar />
+        <div className="App-welcome">
+          <h1> Welcome! </h1>
+          <p> 
+            My name is Victor. I am a senior at the University of Richmond pursuing a B.S. in Computer Science. 
+            This page is my personal website/portfolio. Feel free to look around! Thanks for stopping by!
+          </p>
+        </div>
       </header>
     </div>
   );
