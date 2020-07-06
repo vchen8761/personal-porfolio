@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
 import './App.css';
+import FontAwesome from 'react-fontawesome';
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
             My name is Victor. I am a senior at the University of Richmond pursuing a B.S. in Computer Science. 
             This page is my personal website/portfolio. Feel free to look around! Thanks for stopping by!
           </p>
+        </div>
+        <div className="App-progress"> 
+          <FontAwesome name="wrench"/>
+          This website is currently in development!
+          <FontAwesome name="wrench"/>
         </div>
       </header>
     </div>

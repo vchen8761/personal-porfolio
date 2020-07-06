@@ -20,6 +20,12 @@
   animation: fadeInAnimation 1.5s ease 0s 1 forwards;
 }
 
+.App-progress {
+  padding: 100px;
+  font-size: 25pt;
+  color: yellow;
+}
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
