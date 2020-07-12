@@ -10,13 +10,14 @@ const NavBar = (props) => {
 
   return (
     <div>
-      <Navbar dark>
+      <Navbar light>
         <NavbarBrand href="/" className="mr-auto"> Victor Chen </NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <Collapse isOpen={!collapsed} navbar>
+        <Collapse isOpen={collapsed} navbar>
           <Nav navbar>
-            <NavItem>
-                <NavLink href="https://github.com/vchen8761"> <FontAwesome name="github"/> My GitHub</NavLink>
+            <NavItem >
+              <NavLink style={{display: 'inline-block', paddingRight: '30px'}} href="https://github.com/vchen8761"> <FontAwesome name="github"/> My GitHub</NavLink>
+              <NavLink style={{display: 'inline-block'}} href="https://www.linkedin.com/in/victorchencs"><FontAwesome name="linkedin"/> My LinkedIn</NavLink>
             </NavItem>
           </Nav>
         </Collapse>

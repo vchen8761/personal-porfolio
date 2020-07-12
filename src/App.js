@@ -1,26 +1,21 @@
 import React from 'react';
-import NavBar from './NavBar';
 import './App.css';
-import FontAwesome from 'react-fontawesome';
+// import FontAwesome from 'react-fontawesome';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar />
+        <img id="profile" src="images/profile.jpg" alt=""></img>
         <div className="App-welcome">
-          <h1> Welcome! </h1>
-          <p> 
-            My name is Victor. I am a senior at the University of Richmond pursuing a B.S. in Computer Science. 
-            This page is my personal website/portfolio. Feel free to look around! Thanks for stopping by!
-          </p>
-        </div>
-        <div className="App-progress"> 
-          <FontAwesome name="wrench"/>
-          This website is currently in development and will be updated soon!
-          <FontAwesome name="wrench"/>
+          <h2 id="name"> Victor Chen </h2> 
         </div>
       </header>
+      <p id="aboutme">
+        Hi! I'm Victor, a Computer Science student at the University of Richmond, and an aspiring Full-Stack Web Developer. 
+        I enjoy building software to help others and learning new technologies along the way. 
+        Here are some of my recent projects!
+      </p>
     </div>
   );
 }
