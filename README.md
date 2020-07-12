@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to personal-website 👋</h1>
+<h1 align="center">Welcome to my personal-website 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
@@ -19,11 +19,10 @@ npm start
 
 * Website: https://victorchencs.com/
 * Github: [@vchen8761](https://github.com/vchen8761)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/victorchencs](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/victorchencs)
+* LinkedIn: [@victorchencs](https://linkedin.com/in/victorchencs)
 
 ## Show your support
-
-Give a ⭐️ if this project helped you!
+Background art done by Zedotagger!
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
