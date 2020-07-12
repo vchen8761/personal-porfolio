@@ -60,7 +60,7 @@
 /* text animation */
 @keyframes animated-text{
   from{width: 0;}
-  to{width: 250px;}
+  to{width: 7em;}
 }
 
 /* cursor animations */
