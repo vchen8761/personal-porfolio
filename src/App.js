@@ -17,7 +17,6 @@ function App() {
         I enjoy building software to help others and learning new technologies along the way. 
         Check out some of my recent projects below!
       </p>
-      
     </div>
   );
 }

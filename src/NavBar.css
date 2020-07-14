@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-
 #brand {
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .navlink {
@@ -9,7 +7,7 @@
 }
 
 .tooltiptext {
-    font-size: x-large;
+    font-size: small;
 }
 
 .navlink .tooltiptext {
