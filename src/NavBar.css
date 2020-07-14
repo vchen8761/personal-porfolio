@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+#brand {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.navlink {
+    display: inline-block;
+}
+
+.tooltiptext {
+    font-size: x-large;
+}
+
+.navlink .tooltiptext {
+    visibility: hidden;
+    width: 6em;
+    background-color: black;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 90%;
+    right: 11%;
+    margin-left: 0px;
+}
+
+.navlink .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+  
+.navlink:hover .tooltiptext {
+    visibility: visible;
+}

@@ -1,26 +1,31 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React, { useState } from 'react';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import React from 'react';
+import {Navbar, NavbarBrand, NavLink } from 'reactstrap';
 import FontAwesome from 'react-fontawesome';
+import './NavBar.css';
+import './Victor Chen Resume.pdf';
 
 const NavBar = (props) => {
-  const [collapsed, setCollapsed] = useState(true);
-
-  const toggleNavbar = () => setCollapsed(!collapsed);
-
   return (
     <div>
       <Navbar light>
-        <NavbarBrand href="/" className="mr-auto"> Victor Chen </NavbarBrand>
-        <NavbarToggler onClick={toggleNavbar} className="mr-2" />
-        <Collapse isOpen={collapsed} navbar>
-          <Nav navbar>
-            <NavItem >
-              <NavLink style={{display: 'inline-block', paddingRight: '30px'}} href="https://github.com/vchen8761"> <FontAwesome name="github"/> My GitHub</NavLink>
-              <NavLink style={{display: 'inline-block'}} href="https://www.linkedin.com/in/victorchencs"><FontAwesome name="linkedin"/> My LinkedIn</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
+        <NavbarBrand href="/" className="mr-auto" id="brand"> Victor Chen </NavbarBrand>
+          <NavLink className="navlink" href="https://github.com/vchen8761"> 
+            <FontAwesome name="github" size="2x"/>
+            <span class="tooltiptext">vchen8761 @ Github</span>
+          </NavLink>
+          <NavLink className="navlink" href="https://www.linkedin.com/in/victorchencs">
+            <FontAwesome name="linkedin" size="2x"/>
+            <span class="tooltiptext">victorchencs @ Linkedin</span> 
+          </NavLink>
+          <NavLink className="navlink" href="mailto:vchen8761@gmail.com">
+            <FontAwesome name="envelope" size="2x"/>
+            <span class="tooltiptext">vchen8761 @ Gmail</span>
+          </NavLink>
+          <NavLink className="navlink" href="Victor Chen Resume.pdf">
+            <FontAwesome name="file" size="2x"/>
+            <span class="tooltiptext">Resume</span>
+          </NavLink>
       </Navbar>
     </div>
   );
