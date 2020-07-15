@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import './App.css';
 import NavBar from './NavBar';
+import Group from './Group';
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         I enjoy building software to help others and learning new technologies along the way. 
         Check out some of my recent projects below!
       </p>
+      <div id="projects">
+        <Group />
+      </div>
     </div>
   );
 }

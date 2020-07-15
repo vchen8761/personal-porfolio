@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import {Navbar, NavbarBrand, NavLink } from 'reactstrap';
 import './NavBar.css';
