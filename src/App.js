@@ -3,6 +3,8 @@ import React from 'react';
 import './App.css';
 import NavBar from './NavBar';
 import Group from './Group';
+import Dnd from './images/dnd.png';
+import Test from './images/background.jpg';
 
 function App() {
   return (
@@ -20,7 +22,7 @@ function App() {
         Check out some of my recent projects below!
       </p>
       <div id="projects">
-        <Group />
+        <Group srcs={[Dnd,Test]}/>
       </div>
     </div>
   );

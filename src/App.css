@@ -45,7 +45,7 @@
 
 /* Animations */
 
-.App-welcome, #aboutme, #profile{
+.App-welcome, #aboutme, #profile, #projects{
   opacity: 0;
   animation: fadeInAnimation 1.5s ease 0s 1 forwards;
 }

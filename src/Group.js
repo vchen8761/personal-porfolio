@@ -3,14 +3,13 @@ import {
   Card, Button, CardImg, CardTitle, CardText, CardGroup,
   CardSubtitle, CardBody
 } from 'reactstrap';
-import Dnd from './images/dnd.png';
 import './Group.css';
 
 const Group = (props) => {
   return (
     <CardGroup>
       <Card className="card" style={{borderRadius: "15px"}}>
-        <CardImg top width="100%" src={Dnd} alt="Card image cap" />
+        <CardImg top width="100%" src={props.srcs[0]} alt="Card image cap" style={{height: '50%'}}/>
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
@@ -18,8 +17,8 @@ const Group = (props) => {
           <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
-        <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
+      <Card className="card" style={{borderRadius: "15px"}}>
+        <CardImg top width="100%" src={props.srcs[1]} alt="Card image cap" style={{height: '50%'}}/>
         <CardBody>
           <CardTitle>Card title</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
@@ -27,7 +26,7 @@ const Group = (props) => {
           <Button>Button</Button>
         </CardBody>
       </Card>
-      <Card>
+      <Card className="card" style={{borderRadius: "15px"}}>
         <CardImg top width="100%" src="/assets/318x180.svg" alt="Card image cap" />
         <CardBody>
           <CardTitle>Card title</CardTitle>
