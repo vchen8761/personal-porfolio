@@ -22,7 +22,7 @@ npm start
 * LinkedIn: [@victorchencs](https://linkedin.com/in/victorchencs)
 
 ## Show your support
-Background art done by Zedotagger!
+
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
