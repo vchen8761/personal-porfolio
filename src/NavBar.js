@@ -5,7 +5,7 @@ import Resume from './resume.pdf';
 
 import FontAwesome from 'react-fontawesome';
 
-const NavBar = (props) => {
+function NavBar() {
   return (
     <div>
       <Navbar light>

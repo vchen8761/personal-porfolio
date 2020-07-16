@@ -1,13 +1,11 @@
 #brand {
-    /* color: white; */
     font-family: 'Alfa Slab One', cursive;
-    margin-left: 15px;
+    margin-left: 1%;
     font-size: xx-large;
 }
 
 .navlink {
-    display: inline-block;
-    /* position: relative; */
+    display: inline-flex;
 }
 
 .tooltiptext {
@@ -24,7 +22,7 @@
     position: absolute;
     z-index: 1;
     top: 90%;
-    margin: 0px -60px 0px;
+    margin: 0% -1.2% 0%;
 }
 
 .navlink .tooltiptext::after {
