@@ -44,16 +44,18 @@
 
 #projects {
   font-size: medium;
-  margin: 2% 30% 5% 30%;
+  margin: 2% 20% 5% 20%;
   /* display: inline-block; */
-  /* overflow: auto; */
+  /* overflow: auto;  */
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 #projects > div{
   border-radius: 15px;
   padding: 10px;
   margin: 10px;
-  float: left;
+  /* flex-direction: column; */
 }
 
 /* Animations */
