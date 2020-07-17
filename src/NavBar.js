@@ -17,7 +17,7 @@ function NavBar() {
           <NavLink className="navlink" href="https://www.linkedin.com/in/victorchencs" title="LinkedIn">
             <FontAwesome name="linkedin" size="2x"/>
           </NavLink>
-          <NavLink className="navlink" href="mailto:vchen8762@gmail.com" title="Email">
+          <NavLink className="navlink" href="mailto:vchen8761@gmail.com" title="Email">
             <FontAwesome name="envelope" size="2x"/>
           </NavLink>
           <NavLink className="navlink" href={Resume} target="_blank" title="Resume">
