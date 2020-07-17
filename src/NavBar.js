@@ -11,7 +11,7 @@ function NavBar() {
       <Navbar light>
         <NavbarBrand href="/" className="mr-auto" id="brand"> Victor Chen </NavbarBrand>
         <div id="links">
-          <NavLink className="navlink" href="https://github.com/vchen8762" title="Github"> 
+          <NavLink className="navlink" href="https://github.com/vchen8761" title="Github"> 
             <FontAwesome name="github" size="2x" style={{ '--fa-primary-color': 'red' }}/>
           </NavLink>
           <NavLink className="navlink" href="https://www.linkedin.com/in/victorchencs" title="LinkedIn">
