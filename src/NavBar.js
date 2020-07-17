@@ -11,13 +11,13 @@ function NavBar() {
       <Navbar light>
         <NavbarBrand href="/" className="mr-auto" id="brand"> Victor Chen </NavbarBrand>
         <div id="links">
-          <NavLink className="navlink" href="https://github.com/vchen8761" title="Github"> 
+          <NavLink className="navlink" href="https://github.com/vchen8761" title="vchen8761 @ Github"> 
             <FontAwesome name="github" size="2x" style={{ '--fa-primary-color': 'red' }}/>
           </NavLink>
-          <NavLink className="navlink" href="https://www.linkedin.com/in/victorchencs" title="LinkedIn">
+          <NavLink className="navlink" href="https://www.linkedin.com/in/victorchencs" title=" victorchencs @ LinkedIn">
             <FontAwesome name="linkedin" size="2x"/>
           </NavLink>
-          <NavLink className="navlink" href="mailto:vchen8761@gmail.com" title="Email">
+          <NavLink className="navlink" href="mailto:vchen8761@gmail.com" title="vchen8761 @ Gmail">
             <FontAwesome name="envelope" size="2x"/>
           </NavLink>
           <NavLink className="navlink" href={Resume} target="_blank" title="Resume">
