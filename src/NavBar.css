@@ -7,35 +7,3 @@
 .navlink {
     display: inline-flex;
 }
-
-/* .tooltiptext {
-    font-size: small;
-}
-
-.navlink .tooltiptext {
-    visibility: hidden;
-    width: 6em;
-    background-color: black;
-    color: #fff;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: 90%;
-    margin: 0% -1.2% 0%;
-}
-
-.navlink .tooltiptext::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
-}
-  
-.navlink:hover .tooltiptext {
-    visibility: visible;
-} */
