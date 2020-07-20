@@ -8,9 +8,10 @@
   text-align: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  /* color:white; */
   font-family: sans-serif;
-  /* background-image: url("images/background.jpg");
-  background-size: contain; */
+  background-image: url("images/stairs.jpg");
+  background-size: contain;
 }
 
 /* .App-header {
