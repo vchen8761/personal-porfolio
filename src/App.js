@@ -17,7 +17,7 @@ function App() {
           <h2 id="name"> Victor Chen </h2> 
         </div>
         <p id="aboutme">
-          Hi! I'm Victor, a Computer Science student at the University of Richmond, and an aspiring Full-Stack Web Developer. 
+          Hi! I'm Victor, a Computer Science student at the University of Richmond, and an aspiring Software Developer. 
           I enjoy building software to help others and learning new technologies along the way. 
           Check out some of my recent projects here!
         </p>
