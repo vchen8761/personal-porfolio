@@ -65,9 +65,10 @@
 }
 
 .project-icons {
-  width: 4.7vw;
+  width: 6vw;
   margin-top: 2vh;
   float: left;
+  text-align: center;
 }
 
 
@@ -98,7 +99,11 @@
   }
   .project-descriptions {
     width: 75%;
+    margin-left: 4vw;
   }
+  /* .card {
+    text-align: right;
+  } */
 }
 
 /* Animations */

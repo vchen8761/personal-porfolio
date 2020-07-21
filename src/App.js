@@ -3,7 +3,7 @@ import React from 'react';
 import './App.css';
 
 import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons"
-import {faEnvelope, faFilePdf, faDragon, faTint, faDog, faIdBadge} from "@fortawesome/free-solid-svg-icons"
+import {faEnvelope, faFilePdf, faBook, faTint, faPaintRoller, faIdBadge} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Resume from './resume.pdf';
@@ -30,7 +30,7 @@ function App() {
       </div>
       <div id="projects">
         <div className="card">
-          <div className="project-icons"><FontAwesomeIcon icon={faDragon} size="4x"/></div>
+          <div className="project-icons"><FontAwesomeIcon icon={faBook} size="4x"/></div>
           <div className="project-descriptions">
             <strong> Accessible Spellbook </strong>
             <p> An Alexa skill that allows visually impaired users to access spell descriptions with just their voice input. Developed with Axios and Cheerio, npm modules used for web scraping. </p>
@@ -38,7 +38,7 @@ function App() {
           </div>
         </div>
         <div className="card">
-          <div className="project-icons"><FontAwesomeIcon icon={faTint} size="5x" style={{marginLeft: "15px"}}/></div>
+          <div className="project-icons"><FontAwesomeIcon icon={faTint} size="5x"/></div>
           <div className ="project-descriptions">
             <strong> Quarterly </strong>
             <p> A Google Chrome extension that reminds users to stay hydrated and to practice self-care during extended computer usage. Developed using persistent Chrome API alarms.</p>
@@ -46,7 +46,7 @@ function App() {
           </div>
         </div>
         <div className="card">
-          <div className="project-icons"><FontAwesomeIcon icon={faDog} size="4x"/></div>
+          <div className="project-icons"><FontAwesomeIcon icon={faPaintRoller} size="4x"/></div>
           <div className="project-descriptions">
             <strong> Anime Visual Style Transfer </strong>
             <p> An application that allows users to apply style transfer from anime faces to human faces. Leverages a VGG-19 based convolutional neutral network from Tensorflow Hub.</p>
@@ -54,7 +54,7 @@ function App() {
           </div>
         </div>
         <div className="card">
-          <div className="project-icons"><FontAwesomeIcon icon={faIdBadge} size="6x"/></div>
+          <div className="project-icons"><FontAwesomeIcon icon={faIdBadge} size="5x"/></div>
           <div className="project-descriptions">
             <strong> Active Threat Simulation Research </strong>
             <p> A multi-agent simulation of an active threat scenario using a 3D render of academic building. Developed for law enforcement and campuses to efficiently train for crises with minimal capital investment. </p>
