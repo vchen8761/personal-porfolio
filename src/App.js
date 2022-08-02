@@ -19,7 +19,7 @@ function App() {
         <p id="aboutme">
           Hi! I'm Victor, a Computer Science student at the University of Richmond, and an aspiring Software Developer. 
           I enjoy building software to help others and learning new technologies along the way. 
-          Check out some of my recent projects here!
+          Check out some of my recent projects here.
         </p>
         <div id="links">
           <a href="https://github.com/vchen8761"><FontAwesomeIcon icon={faGithub} size="2x" className="icon" title="vchen8761 @ Github"/></a>
